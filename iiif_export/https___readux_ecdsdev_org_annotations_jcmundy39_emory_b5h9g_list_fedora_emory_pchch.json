@@ -1,0 +1,125 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/emory:b5h9g/list/fedora:emory:pchch",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "resource": [
+                {
+                    "language": "en",
+                    "chars": "<p>Jacob</p>",
+                    "format": "text/html",
+                    "@type": "dctypes:Text"
+                },
+                {
+                    "chars": "name",
+                    "@type": "oa:Tag"
+                }
+            ],
+            "stylesheet": {
+                "value": ".anno-c8a27015-0b1e-4352-8539-53a17444ce91 { background: rgba(0, 191, 255, 0.5); }",
+                "type": "CssStylesheet"
+            },
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "@id": "c8a27015-0b1e-4352-8539-53a17444ce91",
+            "on": {
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/canvas/fedora:emory:pchch",
+                "selector": {
+                    "item": {
+                        "startSelector": {
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            },
+                            "value": "//*[@id='0d1aba25-2dd9-4f43-81d0-545f17462681']",
+                            "@type": "XPathSelector"
+                        },
+                        "@type": "RangeSelector",
+                        "endSelector": {
+                            "refinedBy": {
+                                "end": 12,
+                                "@type": "TextPositionSelector"
+                            },
+                            "value": "//*[@id='65e42f88-b168-4c57-b1e5-3e8a815ea9da']",
+                            "@type": "XPathSelector"
+                        }
+                    },
+                    "value": "xywh=330,588,706,90",
+                    "@type": "oa:FragmentSelector"
+                },
+                "@type": "oa:SpecificResource"
+            },
+            "@type": "oa:Annotation"
+        },
+        {
+            "resource": [
+                {
+                    "language": "en",
+                    "chars": "<p>Eddy</p>",
+                    "format": "text/html",
+                    "@type": "dctypes:Text"
+                },
+                {
+                    "chars": "name",
+                    "@type": "oa:Tag"
+                }
+            ],
+            "stylesheet": {
+                "value": ".anno-7819bdec-7c4e-4be2-9730-b564a85205a8 { background: rgba(0, 191, 255, 0.5); }",
+                "type": "CssStylesheet"
+            },
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "@id": "7819bdec-7c4e-4be2-9730-b564a85205a8",
+            "on": {
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/canvas/fedora:emory:pchch",
+                "selector": {
+                    "item": {
+                        "startSelector": {
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 3
+                            },
+                            "value": "//*[@id='9d68e810-a40e-4cc4-9171-d93a83e94057']",
+                            "@type": "XPathSelector"
+                        },
+                        "@type": "RangeSelector",
+                        "endSelector": {
+                            "refinedBy": {
+                                "end": 13,
+                                "@type": "TextPositionSelector"
+                            },
+                            "value": "//*[@id='22d0894a-9818-4086-869d-2d0a4d9afdd8']",
+                            "@type": "XPathSelector"
+                        }
+                    },
+                    "value": "xywh=492,1007,383,31",
+                    "@type": "oa:FragmentSelector"
+                },
+                "@type": "oa:SpecificResource"
+            },
+            "@type": "oa:Annotation"
+        }
+    ]
+}

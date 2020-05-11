@@ -1,0 +1,51 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/emory:b5h9g/list/fedora:emory:pchdn",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "resource": [
+                {
+                    "language": "en",
+                    "chars": "<p>an annotation</p>",
+                    "format": "text/html",
+                    "@type": "dctypes:Text"
+                },
+                {
+                    "chars": "curvy",
+                    "@type": "oa:Tag"
+                }
+            ],
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "@id": "b28df813-e6f7-4b1d-a1a9-4e9db247a305",
+            "on": {
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/emory:b5h9g/canvas/fedora:emory:pchdn",
+                "selector": {
+                    "item": {
+                        "default": {
+                            "value": "xywh=265,715,842,58",
+                            "@type": "oa:FragmentSelector"
+                        },
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M264.59486,744.97768c13.90647,0 27.49219,3.78594 41.85268,1.67411c12.45589,-1.83175 24.48498,-5.90146 36.83036,-8.37054c4.41166,-0.88233 8.9812,-0.79178 13.39286,-1.67411c2.25616,-0.45123 4.51366,-2.4017 6.69643,-1.67411c9.84788,3.28263 16.15621,11.97559 26.78571,13.39286c22.62948,3.01726 46.13326,-1.30229 68.63839,-3.34821c5.18801,-0.47164 7.18343,0.91822 11.71875,1.67411c12.60102,2.10017 26.58144,0.05836 38.50446,-3.34821c7.44037,-2.12582 15.2531,4.83635 21.76339,6.69643c10.066,2.876 34.06519,12.26428 41.85268,8.37054c10.10646,-5.05323 19.6068,-11.39381 28.45982,-18.41518c7.41986,-5.88472 12.77897,-14.06902 20.08929,-20.08929c3.68045,-3.03096 8.76735,-6.1787 13.39286,-5.02232c12.68847,3.17212 14.76076,24.0449 25.11161,31.80804c13.64193,10.23145 44.45272,-1.1704 60.26786,3.34821c13.04089,3.72597 17.19807,19.84586 26.78571,21.76339c24.32921,4.86584 25.36967,-28.54584 45.20089,-35.15625c1.8171,-0.6057 9.25309,7.87581 10.04464,8.37054c7.10156,4.43847 20.84323,6.08556 28.45982,8.37054c7.28584,2.18575 14.45575,8.67446 21.76339,10.04464c17.50788,3.28273 58.57984,-2.22751 77.00893,-8.37054c13.84575,-4.61525 37.12339,3.2831 51.89732,0c4.87237,-1.08275 8.75862,-4.84273 13.39286,-6.69643c6.98606,-2.79442 30.44838,0.31445 35.15625,5.02232c3.32417,3.32417 5.7944,7.5242 11.71875,8.37054c6.98771,0.99824 13.77583,-3.5397 20.08929,-6.69643c10.06567,-5.03283 21.28865,-11.1222 31.80804,-15.06696c4.30869,-1.61576 9.27699,-1.29028 13.39286,-3.34821c1.66696,-0.83348 -25.11161,-0.62867 -25.11161,3.34821\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;deleteIcon&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"smooth_path_541aee6b-f641-4f3a-9bb6-0f3148757799\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    },
+                    "value": "xywh=265,715,842,58",
+                    "@type": "oa:FragmentSelector"
+                },
+                "@type": "oa:SpecificResource"
+            },
+            "@type": "oa:Annotation"
+        }
+    ]
+}
